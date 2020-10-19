@@ -25,6 +25,6 @@ exports.handler = async (event) => {
         "headers":{
             "Access-Control-Allow-Origin": "*"
         },
-        "body": JSON.stringify(results)
+        "body": JSON.stringify(result)
     };
 };
