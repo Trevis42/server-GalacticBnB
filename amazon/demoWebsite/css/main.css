@@ -1,0 +1,46 @@
+#noresults,
+#loading {
+  display: none;
+}
+
+body {
+  margin: 3%;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+input,
+p {
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+input,
+p {
+  font-size: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+}
+
+a {
+  color: SteelBlue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 7.5rem;
+  vertical-align: top;
+  margin: 0 2rem 2rem 0;
+}
+
+.result {
+  display: flex;
+}
