@@ -1,4 +1,12 @@
-/// aws lambda function 
+/// aws lambda function - can't get access to work so just gonna use raw original endpoint
+
+/// not working - 
+
+
+////
+///  DO NOT USE
+///
+
 
 const request = require("request-promise");
 
@@ -23,7 +31,9 @@ exports.handler = async (event) => {
         "isBase64Encoded": false,
         "statusCode": 200,
         "headers":{
-            "Access-Control-Allow-Origin": "*"
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers" : "json",
+            "Access-Control-Allow-Methods": "GET"
         },
         "body": JSON.stringify(result)
     };
